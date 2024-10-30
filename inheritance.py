@@ -9,10 +9,9 @@ class PartyAnimal:
         self.x = self.x + 1
         print(self.name, "party count", self.x)
 
-
 class FootballFan(PartyAnimal):
 
-    def __init__(self, nam):
+    def __init__(self,nam):
         super().__init__(nam)
         self.points = 0
 
