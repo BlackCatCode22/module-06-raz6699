@@ -21,7 +21,6 @@ class FootballFan(PartyAnimal):
         self.party()
         print(self.name, "points", self.points)
 
-
 s = PartyAnimal("Sally")
 s.party()
 
