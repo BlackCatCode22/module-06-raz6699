@@ -7,7 +7,6 @@ class PartyAnimal:
         self.x = self.x + 1
         print("So far...", self.x)
 
-
 an = PartyAnimal()
 
 print("type is: ", type(an))
